@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(https://img.freepik.com/premium-photo/stopwatch-human-hand-isolated-background_488220-26671.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* color: #877d7f; */
+    text-align: center;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.watchBox{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    border: 20px solid #877d7f;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    /* margin: 150px 150px  ; */
+}
+/* @media (min-width: 320px){
+    body{
+        background-repeat: round;
+    }
+    .watchBox{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    }
+} */
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    margin-top: 25px;
+    padding: 5px;
+    background-color:#877d7f;
+    border-radius: 30%;
+}
+button:hover{
+    background-color: white;
+}
